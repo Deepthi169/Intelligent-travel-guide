@@ -51,7 +51,7 @@ Journease is a smart web application that combines Generative AI, real-time insi
 ->Displays pricing ranges for activities, restaurants, and attractions.
 ->Provides accessibility information to cater to all travelers.
 
-**Tech Stack**
+# Tech Stack
 
 #Frontend: React.js, Mapbox/Google Maps API
 
