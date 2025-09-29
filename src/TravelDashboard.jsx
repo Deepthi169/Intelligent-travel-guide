@@ -93,7 +93,7 @@ export default function TravelDashboard() {
         <div className="bg-white/80 backdrop-blur rounded-2xl p-6 shadow-lg flex items-center gap-6">
           <div className="w-16 h-16 rounded-full bg-gradient-to-br from-rose-500 to-amber-500 flex items-center justify-center text-white text-xl font-bold">TR</div>
           <div>
-            <h1 className="text-2xl font-extrabold">Travel & Tourism — Trip Planner</h1>
+            <h1 className="text-2xl font-extrabold">Journease — Trip Planner</h1>
             <p className="text-sm text-slate-600">Focused theme: travel & tourism — content centered for a delightful UX</p>
           </div>
           <div className="ml-auto text-sm text-slate-500">Frontend: React + Tailwind CSS</div>
@@ -151,10 +151,10 @@ export default function TravelDashboard() {
               <input name="companionContact" value={form.companionContact} onChange={handleChange} placeholder="e.g. +91-..." className="mt-1 block w-full rounded-md p-2 border" />
             </label>
 
-            <label className="block">
+            {/* <label className="block">
               <span className="text-sm font-medium">Vehicle</span>
               <input name="vehicle" value={form.vehicle} onChange={handleChange} placeholder="Car / Bike / Bus / None" className="mt-1 block w-full rounded-md p-2 border" />
-            </label>
+            </label> */}
 
             <label className="block">
               <span className="text-sm font-medium">Extra info</span>
@@ -180,7 +180,7 @@ export default function TravelDashboard() {
                     <th className="pb-2">Type</th>
                     <th className="pb-2">City</th>
                     <th className="pb-2">Phone</th>
-                    <th className="pb-2">Vehicle No</th>
+                    {/* <th className="pb-2">Vehicle No</th> */}
                     <th className="pb-2">Room Charge (INR)</th>
                   </tr>
                 </thead>
