@@ -6,8 +6,8 @@ function App() {
   return (
 
       <div>
-        <TravelDashboard></TravelDashboard>
-        {/* <MapboxComponent/> */}
+        {/* <TravelDashboard></TravelDashboard> */}
+        <MapboxComponent/>
         </div>
   )
 }
