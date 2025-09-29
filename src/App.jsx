@@ -1,11 +1,13 @@
 import MapboxComponent from "./mapbox"
+import TravelDashboard from "./TravelDashboard"
 function App() {
 
 
   return (
 
       <div>
-        <MapboxComponent/>
+        <TravelDashboard></TravelDashboard>
+        {/* <MapboxComponent/> */}
         </div>
   )
 }
