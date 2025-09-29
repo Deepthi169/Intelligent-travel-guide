@@ -1,0 +1,17 @@
+attraction_id,name,city,entry_fee_inr,timings,description_short
+3001,Marina Beach,Chennai,0,5 AM - 11 PM,The second longest urban beach in the world.
+3002,Kapaleeshwarar Temple,Chennai,0,"5 AM - 12 PM, 4 PM - 9 PM",A classic example of Dravidian architecture.
+3003,Fort St. George,Chennai,25,9 AM - 5 PM,"The first English fortress in India, built in 1644."
+3004,Arignar Anna Zoological Park,Chennai,90,9 AM - 6 PM,One of the largest zoos in Southeast Asia.
+3005,Meenakshi Amman Temple,Madurai,50,"5 AM - 12:30 PM, 4 PM - 9:30 PM",A historic Hindu temple with stunning architecture.
+3006,Thirumalai Nayakkar Palace,Madurai,50,9 AM - 5 PM,A 17th-century palace with a grand light and sound show.
+3007,Gandhi Memorial Museum,Madurai,0,"10 AM - 1 PM, 2 PM - 5:30 PM",A museum dedicated to the life of Mahatma Gandhi.
+3008,Marudhamalai Hill Temple,Coimbatore,0,"5:30 AM - 1 PM, 2 PM - 8:30 PM",A popular hill temple dedicated to Lord Murugan.
+3009,Dhyanalinga,Coimbatore,0,6 AM - 8 PM,A powerful and unique meditative space at the Isha Yoga Center.
+3010,VOC Park and Zoo,Coimbatore,10,10 AM - 7:30 PM,A zoological garden and amusement park in the heart of the city.
+3011,Rockfort Temple,Tiruchirappalli,20,6 AM - 8 PM,"A temple complex built on a massive rock, offering panoramic city views."
+3012,Sri Ranganathaswamy Temple,Tiruchirappalli,250,"4:30 AM - 1 PM, 4 PM - 9 PM",One of the world's largest functioning Hindu temples.
+3013,Kallanai Dam,Tiruchirappalli,0,6 AM - 6 PM,"An ancient dam built on the Kaveri River, a marvel of engineering."
+3014,Vivekananda Rock Memorial,Kanyakumari,50,8 AM - 4 PM,A famous monument situated on a rock island.
+3015,Thiruvalluvar Statue,Kanyakumari,30,8 AM - 4 PM,A towering stone statue of the renowned Tamil poet and philosopher.
+3016,Kanyakumari Beach,Kanyakumari,0,All day,"The southernmost tip of mainland India, famous for its sunrise and sunset views."
