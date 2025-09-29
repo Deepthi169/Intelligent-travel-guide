@@ -1,11 +1,13 @@
 import MapboxComponent from "./mapbox"
+import CameraCapture from "./CameraCapture"
 function App() {
 
 
   return (
 
       <div>
-        <MapboxComponent/>
+        {/* <MapboxComponent/> */}
+        <CameraCapture/>
         </div>
   )
 }

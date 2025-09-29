@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        
+
+        <button onclick="startCamera()">Use Camera</button>
+<video id="camera" autoplay playsinline></video>
+
+
+  <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <Script type="text/babel">
+
+async function startCamera() {
+  const stream = await navigator.mediaDevices.getUserMedia({
+    video: { facingMode: "environment" }
+  });
+  const video = document.getElementById("camera");
+  video.srcObject = stream;
+
+  setTimeout(() => takePhoto(video), 3000);
+}
+
+async function takePhoto(video) {
+  const canvas = document.createElement("canvas");
+  canvas.width = video.videoWidth;
+  canvas.height = video.videoHeight;
+  canvas.getContext("2d").drawImage(video, 0, 0);
+
+  canvas.toBlob(async (blob) => {
+    const formData = new FormData();
+    formData.append("photo", blob, "memory.jpg");
+
+    const res = await fetch("/upload", {
+      method: "POST",
+      body: formData,
+    });
+
+    if (res.ok) {
+      alert("Memory saved ✅");
+    } else {
+      alert("Upload failed ❌");
+    }
+  }, "image/jpeg", 0.9);
+}
+
+startCamera();
+
+
+  </Script>
+</body>
+</html>
