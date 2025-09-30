@@ -4,6 +4,15 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(),tailwindcss()],
-  server:{allowedHosts:["nontyrannical-mitsuko-disturbing.ngrok-free.dev"]}
+  server:{
+    allowedHosts:["nontyrannical-mitsuko-disturbing.ngrok-free.dev"],
+  },
+
+  proxy:{  "/api": {
+      target :"http://localhost:4000",
+      changeOrigin :true,
+      secure :false
+    }
+  }
 
 })
