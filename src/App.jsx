@@ -1,4 +1,5 @@
 import MapboxComponent from "./mapbox"
+import MapComponent from "./MapComponent"
 import TravelDashboard from "./TravelDashboard"
 function App() {
 
