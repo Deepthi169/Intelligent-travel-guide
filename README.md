@@ -1,9 +1,9 @@
-#🌍 Journease: Your AI-Powered Travel Companion
+*🌍 Journease: Your AI-Powered Travel Companion
 
 Journease is a smart, AI-driven web application that revolutionizes travel planning by combining Generative AI, real-time insights, and interactive tools. It designs fully personalized itineraries, offers safety guidance, and ensures every journey is effortless, fun, and secure.
 
-#🚀 Features
-##👤 User-Side
+*🚀 Features
+**👤 User-Side
 ##✈️ Personalized Itinerary & Travel Planning
 
 Custom Travel Types & Budgeting: Choose from travel styles such as Adventure, Cultural, Wildlife, Relaxation, or Shopping with flexible budgets (Low, Medium, High, Luxury).
