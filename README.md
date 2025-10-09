@@ -1,85 +1,92 @@
-# Journease: Your AI-Powered Travel Companion
+#🌍 Journease: Your AI-Powered Travel Companion
 
-Journease is a smart web application that combines Generative AI, real-time insights, and interactive tools to design fully personalized travel experiences. From crafting detailed itineraries to guiding you safely through new locations, Journease ensures every journey is effortless, fun, and secure.
+Journease is a smart, AI-driven web application that revolutionizes travel planning by combining Generative AI, real-time insights, and interactive tools. It designs fully personalized itineraries, offers safety guidance, and ensures every journey is effortless, fun, and secure.
 
-# Key Features
-**Personalized Itinerary & Travel Planning**
+#🚀 Features
+##👤 User-Side
+##✈️ Personalized Itinerary & Travel Planning
 
-->Custom Travel Types & Budgeting: Plan trips according to your preferred travel style (Adventure, Cultural, Wildlife, Relaxation, Shopping) and budget (Low, Medium, High, Luxury).
-->Group Considerations: Tailors activities and accommodations for solo travelers, couples, or larger groups.
-->Proximity-Based Planning: Attractions and activities are selected within manageable distances (typically within 10 km) to reduce travel time.
+Custom Travel Types & Budgeting: Choose from travel styles such as Adventure, Cultural, Wildlife, Relaxation, or Shopping with flexible budgets (Low, Medium, High, Luxury).
 
-**Spot Guidance & Activity Suggestions**
+Group Considerations: Suggests activities and stays suited for solo travelers, couples, or groups.
 
-->Provides detailed guidance for must-visit spots.
-->Suggests activities for each location, including morning, afternoon, and evening options.
-->Adjusts itinerary dynamically in case of delays or unexpected changes.
+Proximity-Based Planning: Automatically selects attractions within short distances (typically within 10 km) to minimize travel time.
 
-**Safety & Emergency Assistance**
+##📍 Spot Guidance & Activity Suggestions
 
-->SOS Feature: Instantly alerts authorities or emergency contacts if needed.
-->Local Safety Tips: Offers advice on cultural norms, local etiquette, and safe travel practices.
+Offers detailed guidance for must-visit attractions.
 
-**Weather Prediction**
+Suggests morning, afternoon, and evening activities for each spot.
 
-->Real-time weather updates for your travel destinations.
-->Adjusts suggested activities and timings based on weather conditions.
+Dynamically adjusts the itinerary in case of delays or unexpected changes.
 
-**Route Navigation & Path Alerts**
+##🛡️ Safety & Emergency Assistance
 
-->Interactive map showing destinations, routes, and points of interest.
-->Alerts users if they deviate from the planned path.
-->Highlights nearby restaurants, hospitals, and essential services along the route.
+SOS Feature: Instantly alerts authorities or emergency contacts.
 
-**AI Chatbot Assistance**
+Local Safety Tips: Provides cultural norms, etiquette, and travel safety recommendations.
 
-->Conversational AI chatbot to answer travel-related queries.
-->Helps locate places, suggest activities, and provide real-time guidance.
+##🌦️ Weather Prediction
 
-**Trip Memories & AI Video Highlights**
+Real-time weather updates for planned destinations.
 
-->Automatically compiles photos, visited locations, and experiences into AI-generated video summaries of your trip.
-->Allows sharing of memorable moments with friends and family.
+Auto-adjusts outdoor/indoor activities based on weather changes.
 
-**Transportation & Accommodation Recommendations**
+##🗺️ Route Navigation & Path Alerts
 
-->Suggests the best transport options between spots.
-->Recommends nearby accommodations suitable for different budgets.
+Interactive maps showing destinations, routes, and nearby attractions.
 
-**Pricing & Accessibility Information**
+Alerts users when deviating from the planned route.
 
-->Displays pricing ranges for activities, restaurants, and attractions.
-->Provides accessibility information to cater to all travelers.
+Displays nearby restaurants, hospitals, and essential services along the path.
 
-# Tech Stack
+##🤖 AI Chatbot Assistance
 
-#Frontend: React.js, Mapbox/Google Maps API
+AI-powered conversational assistant for travel-related queries.
 
-#Backend: Node.js, Express.js
+Helps locate destinations, plan routes, and recommend activities in real-time.
 
-#AI Features: 
+##🎞️ Trip Memories & AI Video Highlights
 
-#Database:
+Automatically compiles your trip photos and routes into AI-generated video highlights.
 
-#Deployment: 
+Easily share memorable journeys with friends and family.
+
+##🚗 Transportation & Accommodation Recommendations
+
+Suggests optimal transport modes between destinations.
+
+Recommends nearby accommodations for every budget range.
+
+##💰 Pricing & Accessibility Information
+
+Displays activity and attraction price ranges.
+
+Offers accessibility details for inclusive travel planning.
+
+#💻 Tech Stack
+
+Frontend: React.js, Mapbox
+Backend: Django
+Database: MongoDB
+
+#⚙️ Getting Started
+
+First, run the development server:
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+#📘 Learn More
+
+- [React Documentation](https://react.dev/) – Learn about React features and APIs.  
+- [Vite Documentation](https://vitejs.dev/) – Fast build tool for modern web apps.
 
 
-
-
-
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
